@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#heart{
+    height: 70px;
+    width: 75px;
+    padding: 5px;
+    /* margin: 3px; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(95, 89, 89);
+    opacity: 0.9;
+    padding: 8px;
+    margin: 6px;
+}
+.nav{
+    width: 600px;
+}
+.nav ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;  
+    border-radius: 15px;
+}
+
+.logout:hover{height: 48px;
+    width: 95px;
+}
+.register:hover{
+    height: 60px;
+    width: 158px;
+}
+.text{
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
+.text1,.text2,.text3, .text4,.text5,.text6,.text7{
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+}
+.text1::before,.text2::before,.text3::before,.text4::before,.text5::before,.text6::before,.text7::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(doctor1.jpg);
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h2{
+    font-size: 30px;
+}
+table{
+    border-spacing: 0px 40px;
+}
+.book,.book1{
+    height: 32px;
+    width: 75px;
+    /* margin-left: 680px; */
+    font-size: 24px;
+    color: white;
+    background-color: rgb(49, 49, 151);
+    color: white;
+    font-size: 20px;
+}
+.book a,.book1 a{
+    text-decoration: none;
+    color: white;
+}
+.book:hover,.book1:hover{
+    height: 36px;
+    width: 80px;
+}
+h1, p{
+    padding: 8px;
+}
+h1{
+    font-size: 60px;
+    text-shadow: 3px 3px 4px gray;
+}
+p{
+    font-size: 20px;
+}
+.text::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(doctor1.jpg);
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text2 h1{
+    margin-left: 90px;
+}
+.text2 input,.text4 input{
+    padding: 10px;
+    width: 600px;
+    margin: 20px 40px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.doctor, .patient{
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    margin: 60px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 8px 8px black;
+}
+.doctor:hover, .patient:hover{
+    height: 110px;
+    width: 210px;
+}
+.doctor a,.patient a{
+    text-decoration: none;
+    color: white;
+    
+}
+.text3{
+    margin: 6px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
+.text3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(doctor1.jpg);
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}   
+.details{
+    margin-left: 20px;
+}             
+.book1{
+    margin-left: 230px;
+}
+
+/* buttons */
+.login{
+    height: 54px;
+    width: 152px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(49, 49, 151);
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 5px 5px black;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.login:hover{
+    height: 60px;
+    width: 158px;
+}
+.logout{
+    height: 42px;
+    width: 90px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(49, 49, 151);
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 5px 5px black;
+    margin-left: 650px;
+}
+.logout a{
+    color: white;
+    text-decoration: none;
+}
+#submit{
+    padding: 10px;
+    width: 600px;
+    margin-left: 30px;
+    margin: 20px 40px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.register{
+    margin: 46px;
+    padding: 15px;
+    background-color: rgb(49, 49, 151);
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 5px 5px black;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}
+.text7 {
+    width: 50px;
+    margin: 10px;
+}
